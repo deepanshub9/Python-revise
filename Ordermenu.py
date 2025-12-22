@@ -2,12 +2,12 @@ menu = {
     'pizza': 40,
     'burger': 60,
     'pasta': 50,
-    'salad': 90,
+    'salad': 20,
     'coffee': 80
 }
 
 print("Welcome to PYTHON Restaurant!")
-print("Pizza: Rs.40\nBurger: Rs.60\nPasta: Rs.50\nSalad: Rs.90\nCoffee: Rs.80")
+print("Pizza: Rs.40\nBurger: Rs.60\nPasta: Rs.50\nSalad: Rs.20\nCoffee: Rs.80")
 
 order_total = 0
 items_ordered = []

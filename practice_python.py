@@ -32,15 +32,31 @@
 # a = float(input("Enter first number:"))
 # print("User entered number:", a)
 
-AQI = int(input("Enter your AQI score: "))
+# AQI = int(input("Enter your AQI score: "))
 
-if AQI <= 40:
-    print("You are living in good environment.")
-elif AQI <=80:
-    print("You are living in moderate environment.")
-elif AQI <=120:
-    print("You are living in unhealthy environment.")
-elif AQI <=200:
-    print("You are living in very unhealthy environment.")
-else:
-    print("You are living inside Smoke/Fog City environment.")
+# if AQI <= 40:
+#     print("You are living in good environment.")
+# elif AQI <=80:
+#     print("You are living in moderate environment.")
+# elif AQI <=120:
+#     print("You are living in unhealthy environment.")
+# elif AQI <=200:
+#     print("You are living in very unhealthy environment.")
+# else:
+#     print("You are living inside Smoke/Fog City environment.")
+
+
+def add(x,y):
+    return x + y
+
+def subtract(x,y):
+    return x - y
+
+def multiply(x,y):
+    return x * y
+
+def divide(x,y):
+    if y !=0:
+        return x / y
+    else:
+        return "Error! Division by zero."
